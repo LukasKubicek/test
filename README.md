@@ -35,7 +35,6 @@ Projekt SFRD obsahuje více "podprojektů" které mají stejnou strukturu, mohou
 Alternativou by bylo mít všechny projekty v jedné instanci databáze a  využít cluster indexy podle projektů. Toto by značně zkomplikovalo jak návrh databázové struktury, tak propojení s ORM vrstvou.
 
 ![diagram](diagram1.png "Jeden model - více databází" )
-```
 
 ### Možné problémy
 Přístup "jeden model - více databází" je méně obvyklý a má následující nevýhody:
