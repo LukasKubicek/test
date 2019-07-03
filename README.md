@@ -35,7 +35,7 @@ Projekt SFRD obsahuje více "podprojektů" které mají stejnou strukturu, mohou
 Alternativou by bylo mít všechny projekty v jedné instanci databáze a  využít cluster indexy podle projektů. Toto by značně zkomplikovalo jak návrh databázové struktury, tak propojení s ORM vrstvou.
 
 
-![diagram](mermaid-diagram-20190703134452.svg "Jeden model - více databází")
+![diagram](mermaid-diagram-20190703134452.svg "Jeden model - více databází" =250x)
 ```
 
 ### Možné problémy
