@@ -34,7 +34,6 @@ Využitý této metody v je v přiloženém projektu v souboru **DataController.
 Projekt SFRD obsahuje více "podprojektů" které mají stejnou strukturu, mohou tedy být implementovány jako samostatné instance databází. Vykonávání SQL dotazů je v takovémto případě rychlejší, protože databáze prochází pouze část položek.
 Alternativou by bylo mít všechny projekty v jedné instanci databáze a  využít cluster indexy podle projektů. Toto by značně zkomplikovalo jak návrh databázové struktury, tak propojení s ORM vrstvou.
 
-
 ![diagram](diagram1.png "Jeden model - více databází" )
 ```
 
